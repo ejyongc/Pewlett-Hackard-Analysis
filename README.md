@@ -6,9 +6,8 @@ As many employees at Pewlett-Hackard turn the age of retirement, managers have s
 In this analysis we will determine the number of employees retiring by title.  From this group of people retiring, we will also identify how many of these employees are elegible to participate in a mentorship program. 
 
 ## Results: 
-Provide a bulleted list with four major points from the two analysis deliverables. Use images as support where needed.
 
-This analysis can be divided into four sections where we analyze the data collected from the CSV files. 
+This analysis can be divided into four sections where we analyze the data collected from the CSV files: 
 
 - In our fist part of the analysis we combined our *employees* and *titles* tables into a new table *retirement_title_table* in order to identify the employees by title that were at age of retiring. When retrieving the data, we identified duplicates on our data due to people switching titles during their career at PH (screenshot below). We were able to remove thos duplicates by utilizing a *DISTINCT ON* function on our script. 
 
